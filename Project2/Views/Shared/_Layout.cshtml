@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/47c784d54a.js" crossorigin="anonymous"></script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700%7CRaleway:400,700%7CRoboto+Slab:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/header.css">
+
+    <link rel="stylesheet" href="~/css/footer.css">
+    @if (IsSectionDefined("AddToHead"))
+    {
+        @RenderSection("AddToHead", required: false)
+    }
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="~/js/map.js"></script>
+    <script src="~/js/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="@Url.Action("Index","Home")">
+                            <img src="~/images/logo.png" class="top-nav__logo" width="134" , height="115">
+                        </a>
+
+                    </div>
+                    <div class="col-lg-9 col-lg-push-2">
+                        <div>
+                            <ul class="navbar-nav top-nav_menu">
+                                <li><a id="client-area" href="@Url.Action("Index","Home")">Home</a></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+                                            Products
+                                            <span class="fas fa-angle-down"></span>
+                                        </a>
+                                        <ul class="custom dropdown-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <span class="fas fa-people-arrows"></span>
+                                                    Shared Hosting
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="fas fa-server"></span>
+                                                    Dedicated Hosting
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="fab fa-cloudversify"></span>
+                                                    Cloud Hosting
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+                                            About
+                                            <span class="fas fa-angle-down"></span>
+                                        </a>
+                                        <ul class="custom dropdown-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <span class="fas fa-users"></span>
+                                                    About
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="@Url.Action("Portfolio","Home")">
+                                                    <span class="fas fa-blog"></span>
+                                                    Portfolio
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a href="@Url.Action("Contact","Home")">
+                                            Contact
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a href="@Url.Action("Login", "Home")" id="client-area">
+                                            <span class="fas fa-user-circle"></span>
+                                            Client Area
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    @RenderBody()
+    <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto pr-5">
+                        <div class="getin-t contact-b">
+                            <h1>Get in Touch
+                                <span class="far fa-smile-wink"></span>
+                            </h1>
+                            <div class="methods">
+                                <div class="method">
+                                    <span class="fas fa-home"></span>
+                                    <span>Studentská 1770/1, 708 00 Ostrava-Poruba</span>
+                                </div>
+                                <div class="method">
+                                    <span class="fas fa-phone"></span>
+                                    <span>+420773622011</span>
+                                </div>
+                                <div class="method">
+                                    <span class="far fa-envelope"></span>
+                                    <span>phamthach217@gmail.com</span>
+                                </div>
+                                <div class="method">
+                                    <span class="far fa-calendar-alt"></span>
+                                    <span>Monday - Friday : 8:00 Am - 17:00 Pm <br> Saturday and Sunday: Closed</span>
+                                </div>
+                                <div class="method">
+                                    <span class="far fa-clock"></span>
+                                    <span>Server Time</span>
+                                </div>
+                                <div class="method">
+                                    <span class="fas fa-angle-double-right"></span>
+                                    <span id="timer"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto pr-5">
+                        <div class="products-res">
+                            <h1>Products</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Shared Hosting</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cloud Hosting</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dedicated Hosting</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto pr-5">
+                        <div class="company">
+                            <h1>Company</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Login","Home")">Client Area</a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Contact","Home")">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto pl-5">
+                        <div class="row">
+                            <div class="follow-us contact-b">
+                                <h1>Follow us</h1>
+                                <ul>
+                                    <li><a class="fab fa-facebook" href="#"></a></li>
+                                    <li><a class="fab fa-twitter" href="#"></a></li>
+                                    <li><a class="fab fa-instagram" href="#"></a></li>
+                                    <li><a class="fab fa-linkedin" href="#"></a></li>
+                                    <li><a class="fab fa-google-plus" href="#"></a></li>
+                                    <li><a class="fab fa-pinterest" href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="payment contact-b">
+                                <h1>Payment</h1>
+                                <span class="fab fa-cc-visa"></span>
+                                <span class="fab fa-cc-mastercard"></span>
+                                <span class="fab fa-cc-paypal"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="copy">Copyright © 2020 PHA0027. All Rights Reserved.</p>
+                    </div>
+
+                    <div class="col">
+                        <ul class="important">
+                            <li>
+                                <a href="#">Terms of Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Contact","Home")">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+</body>
+</html>

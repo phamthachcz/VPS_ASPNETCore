@@ -1,0 +1,166 @@
+
+button, input, select, textarea{
+    font-family: "Open Sans",Verdana,Tahoma,serif;
+    color: #333;
+}
+
+
+
+section{
+    margin: 50px 0 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+.form-page h2{
+    font-family: roboto slab, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: normal;
+}
+
+.form-page p{
+    color: #9e9e9e;
+    font-family: open sans, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+}
+
+
+.login-custom{
+    border: 1px solid #cacbcb;
+    margin: 0 0 50px;
+    padding: 20px 25px;
+}
+
+.userLogin{
+    border-style: none none solid;
+    border-width: medium medium 3px;
+    color: #9e9e9e;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    padding: 0 5px 10px;
+    width: 100%;
+    border-bottom-color: #f5f3f7;
+}
+
+.login-btn{
+    border-bottom-color: #1da0da;
+    color: #1da0da;
+    border-style: none none solid;
+    border-width: 0 0 3px;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.socialmedia{
+    background: #f8f8f8;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.socialmedia h3{
+    color: #9e9e9e;
+    display: inline-block;
+    font-family: roboto slab, sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.social-icons{
+    bottom: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+.fa-facebook.social-cus{
+    border: 1px solid #9e9e9e;
+    border-radius: 360px;
+    color: #9e9e9e;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 0 3px;
+    transition: all 0.3s ease 0s;
+}
+
+.fa-twitter.social-cus, .fa-google-plus.social-cus,
+.fa-linkedin.social-cus, .fa-instagram.social-cus{
+    border: 1px solid #9e9e9e;
+    border-radius: 360px;
+    color: #9e9e9e;
+    padding: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    margin: 0 3px;
+}
+
+.fa-facebook.social-cus:hover,
+.fa-twitter.social-cus:hover,
+.fa-google-plus.social-cus:hover,
+.fa-linkedin.social-cus:hover,
+.fa-instagram.social-cus:hover {
+  color: #ffffff;
+  background-color: #1da0da;;
+}
+
+
+.contact-way{
+    background: linear-gradient(to left, #00d2ff, #3a7bd5);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.mail-contact, .phone-contact{
+    color: #ffffff;
+    font-family: roboto slab, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.mail-contact{
+    display: inline;
+}
+.phone-contact{
+    display: inline;
+}
+
+.fa-mobile.mail, .fa-envelope.mail{
+    font-size: 22px;
+    padding-right: 7px;
+}
+
+.map.contact{
+    width: 100%;
+    height: 450px;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.footer{
+    margin: 0;
+}
+

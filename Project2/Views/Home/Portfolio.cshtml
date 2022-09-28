@@ -1,0 +1,233 @@
+﻿
+@{
+    ViewData["Title"] = "portfolio";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/css/blog.css">
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+        <li><a href="@Url.Action("Index","Home")">Home</a></li>
+        <li class="active">Portfolio</li>
+    </div>
+</ol>
+
+
+<section class="main-body">
+    <div class="container">
+        <div class="row">
+            <div class="col main-content">
+                <div class="container">
+                    <div class="row">
+                        <section class="portfolio-page">
+                            <div class="col-auto">
+                                <h2>Portfolio</h2>
+                                <p>A portfolio platform for creative folks</p>
+                                <ul class="nav nav-tabs custom-tabs-c" role="tablist">
+                                    <li class="active" role="presentation">
+                                        <a href="#recent" aria-controls="recent" role="tab" data-toggle="tab" aria-expanded="true">Recent</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#blog" aria-controls="blog" role="tab" data-toggle="tab" aria-expanded="false">Blog</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#brands" aria-controls="brands" role="tab" data-toggle="tab" aria-expanded="false">Brands</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#app" aria-controls="app" role="tab" data-toggle="tab" aria-expanded="false">App</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="recent">
+                                        <!-- Item -->
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/9.jpg" alt="item">
+                                                <h4 class="title-port">Cloud Ocean</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/10.jpg" alt="item">
+                                                <h4 class="title-port">Hosting House</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/11.jpg" alt="item">
+                                                <h4 class="title-port">Google Academy</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/12.jpg" alt="item">
+                                                <h4 class="title-port">Cloud Ocean</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/13.jpg" alt="item">
+                                                <h4 class="title-port">Hosting House</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/14.jpg" alt="item">
+                                                <h4 class="title-port">Google Academy</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/15.jpg" alt="item">
+                                                <h4 class="title-port">Cloud Ocean</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/16.jpg" alt="item">
+                                                <h4 class="title-port">Hosting House</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/17.jpg" alt="item">
+                                                <h4 class="title-port">Google Academy</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="blog">
+                                        <!-- Item -->
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/18.jpg" alt="item">
+                                                <h4 class="title-port">Cloud Ocean</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/4.jpg" alt="item">
+                                                <h4 class="title-port">Hosting House</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/5.jpg" alt="item">
+                                                <h4 class="title-port">Google Academy</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="brands">
+                                        <!-- Item -->
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/6.jpg" alt="item">
+                                                <h4 class="title-port">Cloud Ocean</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/7.jpg" alt="item">
+                                                <h4 class="title-port">Hosting House</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/8.jpg" alt="item">
+                                                <h4 class="title-port">Google Academy</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="app">
+                                        <!-- Item -->
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/9.jpg" alt="item">
+                                                <h4 class="title-port">Cloud Ocean</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/10.jpg" alt="item">
+                                                <h4 class="title-port">Hosting House</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                            <!-- Item -->
+                                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                                <img class="port-img" src="~/images/polo/11.jpg" alt="item">
+                                                <h4 class="title-port">Google Academy</h4>
+                                                <div class="links-port">
+                                                    <a href="#" class="fas fa-heart"></a>
+                                                    <a href="@Url.Action("Item","Home")" class="fas fa-link cus"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

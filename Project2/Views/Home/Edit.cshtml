@@ -1,0 +1,42 @@
+﻿@model MyUser
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/css/detail.css">
+
+}
+
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+        <li><a href="@Url.Action("Index","Home")">Home</a></li>
+        <li class="active">@ViewBag.User</li>
+        <a href="@Url.Action("Logout", "Home")">Log Out</a>
+    </div>
+
+</ol>
+
+
+@using (Html.BeginForm(FormMethod.Post, new { @class = "login-custom form-horizontal" }))
+{
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @*@Html.TextBoxFor(x => x.Email, new { @value = "@ViewBag.MyUser.Email"})*@
+        <input id="Email" name="Email" type="email"  value="@ViewBag.MyUser.Email">
+        
+
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Password)
+        <input id="Password" name="Password" type="text" value="@ViewBag.MyUser.Password">
+        
+    </div>
+    <div>
+        <button type="submit" class="login-btn">Update</button>
+    </div>
+}
+

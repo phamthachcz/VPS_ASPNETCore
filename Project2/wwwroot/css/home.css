@@ -1,0 +1,400 @@
+.hero{
+    width: 100%;
+    background: #fff url(../images/bg.png);
+    border: 0;
+    background-position: center center;
+    border-bottom: 3px solid #f8f8f8;
+}
+
+.carousel-co {
+    min-height: 550px;
+}
+
+.carousel-co .item {
+    height: 480px;
+}
+
+.item{
+    margin: 6px 0;
+}
+
+.item p{
+    font-family: open sans, tahoma;
+    font-size: 14px;
+    font-style: oblique;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.item img{
+    border: 0;
+    display: block;
+    margin: 37px auto 25px;
+    transition: all 0.3s ease 0s;
+    width: auto;   
+}
+
+.item img:hover {
+    opacity: 0.7;
+}
+
+.features{
+    margin: 0;
+    text-align: center;
+}
+
+.h-feature{
+    color: #797979;
+    display: inline;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: all 0.3s;
+}
+
+.h-feature:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+.button-item{
+    margin: 50px 0;
+}
+
+.price-res{
+    background: #d3d3d3;
+    border-radius: 2px;
+    color: white;
+    display: inline;
+    font-family: roboto slab, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 17px 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+a.order{
+    border: 2px solid #1da0da;
+    background: #1da0da;
+    border-radius: 2px;
+    color: white;
+    display: inline;
+    font-family: roboto slab, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a.order:hover {
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+h2{
+    font-family: roboto slab, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.item p{
+    color: #1da0da;
+}
+
+.resources{
+    margin: 10px auto;
+}
+
+.resources i{
+    background: #1da0da;
+}
+
+.resources a{
+    color: #000000;
+    display: block;
+    font-family: roboto slab, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 63px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.fa-question.custom{
+    border-radius: 18px;
+    color: #ffffff;
+    display: table;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 20px 25px;
+    text-align: center;
+    transition: all 0.3s;
+}
+.fa-question.custom, .fa-file-alt.custom, .fa-headphones.custom, .fa-comments.custom{
+    border-radius: 18px;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    transition: all 0.3s;
+}
+
+.fa-file-alt.custom:hover,
+.fa-headphones.custom:hover,
+.fa-comments.custom:hover,
+.fa-question.custom:hover {
+  background: #86c655 none repeat scroll 0 0;
+}
+
+.search-custom{
+    text-align: center;
+}
+
+.item-search{
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #e7e7e7;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 25px auto 47px;
+    padding: 15px 10px;
+    text-align: center;
+    display: inline;
+    border-radius: 8px;
+    width: 250px;
+    color: #7e7e7e;
+}
+
+.contact-ev{
+    margin-bottom: 42px;
+}
+
+a.contact{
+    border: 2px solid #1da0da;
+    background: #1da0da;
+    border-radius: 2px;
+    color: #ffffff;
+    display: table;
+    font-family: roboto slab, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.section{
+    display: inline-block;
+    width: 100%;
+}
+.section#main-body{
+    margin: 0;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.main-content {
+    margin-bottom: 0;
+}
+
+.plan{
+    margin: 100px 0 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-title{
+    margin-bottom: 50px;
+}
+
+.section-title h2{
+    color: black;
+    font-family: roboto slab, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+.section-title h5{
+    color: #808080;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+
+
+
+.plan-block{
+    background: #f3f5f7;
+    border-radius: 2px;
+    padding: 30px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.plan-block:hover {
+    background: #fff;
+}
+
+
+.plan-block > img {
+    border-bottom: 3px solid #9a9a9a;
+    display: block;
+    height: 60px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 60px;
+}
+
+.plan-block > span {
+    color: #9a9a9a;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 58px;
+    display: block;
+    text-align: center;
+    font-family: "roboto slab", sans-serif;
+    margin-top: -4px;
+}
+
+
+
+.plan-block > p {
+    color: #7e7e7e;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.plan-block > a{
+    border-radius: 2px;
+    color: #ffffff;
+    background: #1da0da;
+    display: table;
+    font-family: open sans, sans-serif;
+    font-weight: 700;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.plan-block > a:hover{
+    color: #fff;
+    background: #000;
+}
+
+
+.price-plan-custom{
+    margin: 10px 0 30px;
+    text-align: center;
+}
+
+.price-m{
+    color: #1da0da;
+    display: inline;
+    font-family: roboto slab, sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.ext-m{
+    color: #9a9a9a;
+    display: inline-block;
+    font-family: open sans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    text-align: left;
+}
+
+
+/* Features */
+.features-main{
+    padding: 80px 0;
+}
+
+.m-features{
+    color: #ececec;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+    transition: all 0.3s;
+}
+
+.m-features:hover{
+    color:#1da0da;
+}
+
+.fea-block{
+    border: 1px solid #cacbcb;
+    min-height: 205px;
+    max-height: 205px;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.fea-block:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    margin-top: -10px;
+}
+
+.fea-block h2{
+    color: #dcdcdc;
+    font-family: roboto slab, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    padding-bottom: 10px;
+    margin-top: 16px;
+}
+
+.fea-block > p{
+    color: #8f8f8f;
+    font-family: open sans, sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* Partners */
+.partners{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: block;
+}

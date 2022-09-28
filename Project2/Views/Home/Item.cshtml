@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "Item";
+}
+
+@section AddToHead{
+    <link rel="stylesheet" href="~/css/item.css">
+    
+}
+
+<ol class="breadcrumb">
+    <div class="container">
+        <span class="fas fa-home"></span>
+        <li><a href="@Url.Action("Index","Home")">Home</a></li>
+        <li class="active">Item</li>
+    </div>
+</ol>
+
+
+<section class="main-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-auto main-content">
+                <div class="container">
+                    <div class="row">
+                        <section class="portfolio-page">
+                            <div class="col-auto">
+                                <div class="articles-blog">
+                                    <div class="article-item cus">
+                                        <div class="item cus-blog">
+                                            <img src="~/images/polo/9.jpg" alt="Cloud">
+                                        </div>
+                                        <a href="#" class="custom-pop title">Our First item wordpress template</a>
+                                        <div class="date-user">
+                                            <a href="#">
+                                                <b>December 14, 2020</b>
+                                            </a>
+                                            <a href="#" class="user-blog">By Pha0027</a>
+                                        </div>
+                                        <div class="wid-block">
+                                            <span class="fas fa-comment"></span>
+                                            <a href="#">120</a>
+                                        </div>
+                                        <div class="wid-block">
+                                            <span class="fas fa-eye"></span>
+                                            <a href="#">200</a>
+                                        </div>
+                                        <div class="wid-block">
+                                            <span class="fas fa-folder-open"></span>
+                                            <a href="#">Blog</a>
+                                        </div>
+                                        <a href="#" class="format-cust">Art</a>
+                                        <div class="end-art"></div>
+                                        <p>
+                                            <b>Lorem Ipsum</b>
+                                            is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popu- larised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                            with desktop publish- ing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="end-art"></div>
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="article-rel">
+                                            <img src="~/images/polo/11.jpg" alt="post" width="80" height="80" />
+                                            <div class="text-post-c">
+                                                <span class="fa fa-long-arrow-left article"></span>
+                                                <span>Previous Project</span>
+                                                <a href="@Url.Action("Index","Home")">Increase Your Marketing Impact Through Partnerships</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="article-rel">
+                                            <img src="~/images/polo/12.jpg" alt="post" width="80" height="80" />
+                                            <div class="text-post-c">
+                                                <span class="fa fa-long-arrow-right article"></span>
+                                                <span>Next Project</span>
+                                                <a href="@Url.Action("Index","Home")">6 Organizations That Support Women in Business .</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
